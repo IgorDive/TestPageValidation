@@ -1,0 +1,292 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/roboto-v18-cyrillic-300.eot'); 
+  src: local('Roboto Light'), local('Roboto-Light'),
+       url('../fonts/roboto-v18-cyrillic-300.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto-v18-cyrillic-300.woff2') format('woff2'), 
+       url('../fonts/roboto-v18-cyrillic-300.woff') format('woff'), 
+       url('../fonts/roboto-v18-cyrillic-300.ttf') format('truetype'), 
+       url('../fonts/roboto-v18-cyrillic-300.svg#Roboto') format('svg'); 
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v18-cyrillic-regular.eot'); 
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/roboto-v18-cyrillic-regular.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/roboto-v18-cyrillic-regular.woff2') format('woff2'), 
+       url('../fonts/roboto-v18-cyrillic-regular.woff') format('woff'), 
+       url('../fonts/roboto-v18-cyrillic-regular.ttf') format('truetype'), 
+       url('../fonts/roboto-v18-cyrillic-regular.svg#Roboto') format('svg'); 
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v18-cyrillic-500.eot'); 
+  src: local('Roboto Medium'), local('Roboto-Medium'),
+       url('../fonts/roboto-v18-cyrillic-500.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/roboto-v18-cyrillic-500.woff2') format('woff2'), 
+       url('../fonts/roboto-v18-cyrillic-500.woff') format('woff'), 
+       url('../fonts/roboto-v18-cyrillic-500.ttf') format('truetype'), 
+       url('../fonts/roboto-v18-cyrillic-500.svg#Roboto') format('svg'); 
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v18-cyrillic-700.eot'); 
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+       url('../fonts/roboto-v18-cyrillic-700.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/roboto-v18-cyrillic-700.woff2') format('woff2'), 
+       url('../fonts/roboto-v18-cyrillic-700.woff') format('woff'), 
+       url('../fonts/roboto-v18-cyrillic-700.ttf') format('truetype'), 
+       url('../fonts/roboto-v18-cyrillic-700.svg#Roboto') format('svg'); 
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/roboto-v18-cyrillic-900.eot'); 
+  src: local('Roboto Black'), local('Roboto-Black'),
+       url('../fonts/roboto-v18-cyrillic-900.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/roboto-v18-cyrillic-900.woff2') format('woff2'), 
+       url('../fonts/roboto-v18-cyrillic-900.woff') format('woff'), 
+       url('../fonts/roboto-v18-cyrillic-900.ttf') format('truetype'), 
+       url('../fonts/roboto-v18-cyrillic-900.svg#Roboto') format('svg'); 
+}
+
+@keyframes AnimWin {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+
+body {
+	text-align: center;
+	background-color: darkgray;
+}
+
+.main {
+  display: inline-block;
+  position: relative;
+  width: 719px;
+  height: 2299px;
+  background: url('../images/Layer7.png') no-repeat 50% top white;
+}
+.main>img {
+	margin-left: 14px;
+}
+.topText {
+	position: absolute;
+	left: 62px;
+	text-align: right;
+	width: 564px;
+	height: 44px;
+	font-family: 'Roboto', sans-serif;
+	top: 34px;
+	color: rgb( 19, 125, 194 );
+	font-weight: 300;
+	font-size: 25px;
+}
+.topTextCenter {
+	position: absolute;
+	left: 84px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 564px;
+	height: 44px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.first {
+	top: 260px;
+	font-weight: 500;
+	font-size: 39px;
+	color: white;
+}
+.second {
+	top: 312px;
+	font-weight: 400;
+	font-size: 40px;
+	color: white;
+}
+.third {
+	top: 398px;
+	font-weight: 900;
+	font-size: 39px;
+	color: rgb( 19, 125, 194 );
+}
+
+span {
+	color: rgb( 19, 125, 194 );
+}
+.leftSide {
+	position: absolute;
+	left: calc(50% - 282px);
+	text-align: left;
+	text-transform: uppercase;
+	width: 564px;
+	height: 44px;
+	font-family: 'Roboto', sans-serif;
+}
+.one {
+	top: 652px;
+	font-weight: 900;
+	font-size: 52px;
+}
+
+.two {
+	top: 761px;
+	font-weight: 700;
+	font-size: 31px;
+}
+.three {
+	top: 805px;
+	font-weight: 400;
+	font-size: 29px;
+}
+.four {
+	position: absolute;
+	left: calc(50% - 290px);
+	text-align: left;
+	width: 564px;
+	height: 40px;
+	top: 854px;
+}
+.five {
+	top: 933px;
+	font-weight: 700;
+	font-size: 29px;
+}
+.six {
+	top: 981px;
+	font-weight: 700;
+	font-size: 29px;
+}
+.seven {
+	position: absolute;
+	left: calc(50% - 290px);
+	text-align: left;
+	text-transform: uppercase;
+	width: 564px;
+	height: 40px;
+	top: 1023px;
+	font-weight: 400;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb( 38, 118, 164 ); 
+}
+.seven>img {
+	vertical-align: bottom;
+}
+.eight {
+	top: 1128px;
+	font-weight: 900;
+	font-size: 53px;
+}
+a {
+	text-decoration: none;
+}
+form {
+	position: absolute;
+	left: calc(50% - 316px);
+	top: 1224px;
+	width: 632px;
+	height: 687px;
+
+
+}
+.divform {
+	width: 100%;
+	margin: 15px 0px;
+	position: relative;
+}
+.elemform:not([type="submit"]) {
+	width: 100%;
+	background-color: rgb(235, 235, 235);
+	font-weight: 300;
+	font-size: 39px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb( 103, 103, 103 ); 
+	text-indent: 33px;
+
+}
+.elemform:not(textarea) {
+	height: 94px;
+}
+.divform>textarea {
+	min-height: 304px;
+	padding: 40px 0px 0px 0px;
+}
+
+[type="submit"] {
+	width: 100%;
+	background-color: #137dc2;
+	border-style: hidden;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	margin: 12px 0px; 
+	font-size: 29px;
+}
+
+.normal {
+	border-style: hidden;
+}
+
+.alarm {
+	border: solid red 1px;
+}
+
+a>div {
+	position: absolute;
+	left: 43px;
+	top: 2121px;
+	width: 633px;
+	height: 59px;
+	border: solid #a2a2a2 1px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 31px;
+	padding-top: 32px;
+	color: black;
+}
+.infoWin {
+	position: absolute; 
+	left: 10px; 
+	top: -48px; 
+	width: 550px; 
+	background-color: lightgray; 
+	font-weight: 300;
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	color: black;
+	border-radius: 10px;
+	border: solid red 1px;
+	box-shadow: 3px 3px 3px darkgray;
+	animation: AnimWin cubic-bezier(0, 0, 0, 1) 0.5s 1;
+	
+}
+.pointer {
+	position: absolute;
+    left: 50px;
+    top: 29px;
+    width: 14px;
+    height: 14px;
+    background-color: lightgray;
+    border-right: solid red 1px;
+    border-bottom: solid red 1px;
+    border-top-left-radius: 40px;
+    transform: rotate(45deg);
+    box-shadow: 4px 0px 3px darkgray;
+    
+}
