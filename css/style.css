@@ -83,7 +83,7 @@ body {
 .main>img {
 	margin-left: 14px;
 }
-.topText {
+.top-text {
 	position: absolute;
 	left: 62px;
 	text-align: right;
@@ -95,7 +95,7 @@ body {
 	font-weight: 300;
 	font-size: 25px;
 }
-.topTextCenter {
+.top-text-center {
 	position: absolute;
 	left: 84px;
 	text-align: center;
@@ -127,7 +127,7 @@ body {
 span {
 	color: rgb( 19, 125, 194 );
 }
-.leftSide {
+.left-side {
 	position: absolute;
 	left: calc(50% - 282px);
 	text-align: left;
@@ -203,12 +203,12 @@ form {
 
 
 }
-.divform {
+.div-form {
 	width: 100%;
 	margin: 15px 0px;
 	position: relative;
 }
-.elemform:not([type="submit"]) {
+.elem-form:not([type="submit"]) {
 	width: 100%;
 	background-color: rgb(235, 235, 235);
 	font-weight: 300;
@@ -218,10 +218,10 @@ form {
 	text-indent: 33px;
 
 }
-.elemform:not(textarea) {
+.elem-form:not(textarea) {
 	height: 94px;
 }
-.divform>textarea {
+.div-form>textarea {
 	min-height: 304px;
 	padding: 40px 0px 0px 0px;
 }
@@ -238,7 +238,7 @@ form {
 	font-size: 29px;
 }
 
-.normal {
+.blur {
 	border-style: hidden;
 }
 
@@ -260,7 +260,7 @@ a>div {
 	padding-top: 32px;
 	color: black;
 }
-.infoWin {
+.info-window {
 	position: absolute; 
 	left: 10px; 
 	top: -48px; 
